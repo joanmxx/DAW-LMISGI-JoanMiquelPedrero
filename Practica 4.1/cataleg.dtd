@@ -1,0 +1,28 @@
+<!ELEMENT cataleg (single*, album*)>
+  <!ELEMENT single (titol, descripcio, pais, idioma, genere, grup, membres, durada)>
+  <!ELEMENT album (titol, descripcio, pais, idioma, genere, grup, membres, numero_cançons, titols_cançons)>
+  <!ELEMENT titols_cançons (canço+)>
+  <!ELEMENT canço (titol_canço, durada_canço)>
+  <!ELEMENT titol (#PCDATA)>
+  <!ELEMENT descripcio (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT idioma (#PCDATA)>
+  <!ELEMENT grup (#PCDATA)>
+  <!ELEMENT membres (membre+)>
+  <!ELEMENT membre (nom)>
+  <!ATTLIST membre sexe (home | dona) #REQUIRED>
+  <!ELEMENT nom (#PCDATA)>
+  <!ELEMENT durada (#PCDATA)>
+  <!ELEMENT numero_cançons (#PCDATA)>
+  <!ELEMENT titol_canço (#PCDATA)>
+  <!ELEMENT durada_canço (#PCDATA)>
+  <!ELEMENT genere (classica | jazz | blues | gospel | soul | pop | rock | country)>
+  <!ELEMENT classica EMPTY>
+  <!ELEMENT jazz EMPTY>
+  <!ELEMENT blues EMPTY>
+  <!ELEMENT gospel EMPTY>
+  <!ELEMENT soul EMPTY>
+  <!ELEMENT pop EMPTY>
+  <!ELEMENT rock EMPTY>
+  <!ELEMENT country EMPTY>
+]
