@@ -1,0 +1,52 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<cataleg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="cataleg.xsd">
+
+
+  <single codi="S001">
+    <titol>Cançó única</titol>
+    <descripcio>Una cançó d'exemple</descripcio>
+    <pais>Espanya</pais>
+    <idioma>Català</idioma>
+    <genere>Pop</genere>
+    <grup>Grup X</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>Joan</nom>
+      </membre>
+      <membre sexe="dona">
+        <nom>Ana</nom>
+      </membre>
+    </membres>
+    <durada>3.5</durada>
+  </single>
+
+  <album codi="A001">
+    <titol>Àlbum d'exemple</titol>
+    <descripcio>Un àlbum amb diverses cançons</descripcio>
+    <pais>EEUU</pais>
+    <idioma>Anglès</idioma>
+    <genere>Jazz</genere>
+    <grup>Grup Y</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>John</nom>
+      </membre>
+      <membre sexe="dona">
+        <nom>Mary</nom>
+      </membre>
+    </membres>
+    <numero_cançons>2</numero_cançons>
+    <titols_cançons>
+      <canço numero="1">
+        <titol_canço>Cançó 1</titol_canço>
+        <durada_canço>4.2</durada_canço>
+      </canço>
+      <canço numero="2">
+        <titol_canço>Cançó 2</titol_canço>
+        <durada_canço>3.8</durada_canço>
+      </canço>
+    </titols_cançons>
+  </album>
+
+</cataleg>
