@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "cifp": {
+      "type": "object",
+      "properties": {
+        "alumne": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "integer" },
+              "nom": { "type": "string" },
+              "llinatges": { "type": "string" },
+              "data_naixement": { "type": "string" },
+              "correu": { "type": "string" },
+              "telefon": { "type": "string" },
+              "adreca": { "type": "string" },
+              "data_matricula": { "type": "string" },
+              "curs": {
+                "type": "string",
+                "enum": ["DAM", "DAW", "ASIX", "SMX", "SEIA", "ER", "AUT"]
+              }
+            },
+            "required": ["id", "nom", "llinatges", "data_matricula", "curs"]
+          }
+        },
+        "professor": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "integer" },
+              "nom": { "type": "string" },
+              "llinatges": { "type": "string" },
+              "data_naixement": { "type": "string" },
+              "correu": { "type": "string" },
+              "telefon": { "type": "string" },
+              "adreca": { "type": "string" },
+              "data_incorporacio": { "type": "string" },
+              "departament": {
+                "type": "string",
+                "enum": ["Informatica", "Electricitat", "Automoció"]
+              },
+              "assignatura": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id_assignatura": { "type": "integer" },
+                    "nom_assignatura": { "type": "string" },
+                    "cicle": {
+                      "type": "string",
+                      "enum": ["DAM", "DAW", "ASIX", "SMX", "SEIA", "ER", "AUT"]
+                    },
+                    "data_inici": { "type": "string" },
+                    "data_final": { "type": "string" }
+                  },
+                  "required": ["id_assignatura", "nom_assignatura", "cicle"]
+                }
+              }
+            },
+            "required": ["id", "nom", "llinatges", "data_incorporacio", "departament"]
+          }
+        }
+      }
+    }
+  },
+  "required": ["cifp"]
+}

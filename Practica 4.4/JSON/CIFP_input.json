@@ -1,0 +1,40 @@
+{
+  "cifp": {
+    "alumne": [
+      {
+        "id": 1,
+        "nom": "Nombre 1",
+        "llinatges": "Apellido 1",
+        "data_naixement": "2000-01-01",
+        "correu": "nombre1.apellido1@example.com",
+        "telefon": "123456789",
+        "adreca": "Direccion 1",
+        "data_matricula": "2023-09-01",
+        "curs": "DAM"
+      }
+    ],
+    "professor": [
+      {
+        "id": 1,
+        "nom": "Nombre 3",
+        "llinatges": "Apellido 3",
+        "data_naixement": "1970-03-03",
+        "correu": "nombre3.apellido3@example.com",
+        "telefon": "666777888",
+        "adreca": "Direccion 3",
+        "data_incorporacio": "2010-09-01",
+        "departament": "Informatica",
+        "assignatura": [
+          {
+            "id_assignatura": 1,
+            "nom_assignatura": "Programacion",
+            "cicle": "DAM",
+            "data_inici": "2023-09-01",
+            "data_final": "2024-06-30"
+          }
+
+        ]
+      }
+    ]
+  }
+}
