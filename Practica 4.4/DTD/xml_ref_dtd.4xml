@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cifp SYSTEM "cifp.dtd">
+
+<cifp>
+
+    <alumne id="a1">
+        <nom>Nom</nom>
+        <llinatges>Llinatges</llinatges>
+        <data_naixement>2000-05-15</data_naixement>
+        <correu>alumne@example.com</correu>
+        <telefon>123456789</telefon>
+        <adreca>adreca</adreca>
+        <data_matricula>2023-09-01</data_matricula>
+        <curs value="ASIX">ASIX</curs>
+    </alumne>
+
+    <alumne id="a10">
+        <nom>Nom2</nom>
+        <llinatges>Llinatges2</llinatges>
+        <data_naixement>2001-08-20</data_naixement>
+        <correu>alumna2@example.com</correu>
+        <telefon>987654321</telefon>
+        <adreca>adreca2</adreca>
+        <data_matricula>2023-09-01</data_matricula>
+        <curs value="DAW">DAW</curs>
+    </alumne>
+
+    <professor id="p100">
+        <nom>Nom3</nom>
+        <llinatges>Llinatges3</llinatges>
+        <data_naixement>1980-03-22</data_naixement>
+        <correu>profesor@example.com</correu>
+        <telefon>111222333</telefon>
+        <adreca>adreca3</adreca>
+        <data_incorporacio>2010-09-15</data_incorporacio>
+        <departament>Informàtica</departament>
+
+        <assignatura id_assignatura="as200" cicle="ASIX">
+            <nom_assignatura>Bases de Dades</nom_assignatura>
+            <data_inici>2023-09-15</data_inici>
+            <data_final>2024-06-30</data_final>
+        </assignatura>
+    </professor>
+</cifp>
