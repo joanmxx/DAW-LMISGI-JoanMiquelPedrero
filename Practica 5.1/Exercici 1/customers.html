@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Llista de Clients</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #dddddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h2>Taula de Clients</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Id Client</th>
+                <th>Nom del Client</th>
+                <th>Contacte</th>
+                <th>Telèfon</th>
+                <th>Ciutat</th>
+                <th>País</th>
+                <th>Límit de Crèdit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>103</td><td>Atelier graphique</td><td>Carine Schmitt</td><td>40.32.2555</td><td>Nantes</td><td>France</td><td>1370</td></tr>
+            <tr><td>112</td><td>Signal Gift Stores</td><td>Jean King</td><td>7025551838</td><td>Las Vegas</td><td>USA</td><td>1166</td></tr>
+            <tr><td>114</td><td>Australian Collectors, Co.</td><td>Peter Ferguson</td><td>03 9520 4555</td><td>Melbourne</td><td>Australia</td><td>1611</td></tr>
+            <tr><td>119</td><td>La Rochelle Gifts</td><td>Janine Labrune</td><td>40.67.8555</td><td>Nantes</td><td>France</td><td>1370</td></tr>
+            <tr><td>121</td><td>Baane Mini Imports</td><td>Jonas Bergulfsen</td><td>07-98 9555</td><td>Stavern</td><td>Norway</td><td>1504</td></tr>
+            <tr><td>124</td><td>Mini Gifts Distributors Ltd.</td><td>Susan Nelson</td><td>4155551450</td><td>San Rafael</td><td>USA</td><td>1165</td></tr>
+            <tr><td>125</td><td>Havel and Zbyszek Co</td><td>Zbyszek Piestrzeniewicz</td><td>(26) 642-7555</td><td>Warszawa</td><td>Poland</td><td>NULL</td></tr>
+            <tr><td>128</td><td>Blauer See Auto, Co.</td><td>Roland Keitel</td><td>+49 69 66 90 2555</td><td>Frankfurt</td><td>Germany</td><td>1504</td></tr>
+            <tr><td>129</td><td>Mini Wheels Co.</td><td>Julie Murphy</td><td>6505555787</td><td>San Francisco</td><td>USA</td><td>1165</td></tr>
+            <tr><td>131</td><td>Land of Toys Inc.</td><td>Kwai Lee</td><td>2125557818</td><td>NYC</td><td>USA</td><td>1323</td></tr>
+            <tr><td>141</td><td>Euro+ Shopping Channel</td><td>Diego Freyre</td><td>(91) 555 94 44</td><td>Madrid</td><td>Spain</td><td>1370</td></tr>
+            <tr><td>144</td><td>Volvo Model Replicas, Co</td><td>Christina Berglund</td><td>0921-12 3555</td><td>Luleå</td><td>Sweden</td><td>1504</td></tr>
+            <tr><td>145</td><td>Danish Wholesale Imports</td><td>Jytte Petersen</td><td>31 12 3555</td><td>Kobenhavn</td><td>Denmark</td><td>1401</td></tr>
+            <tr><td>146</td><td>Saveley and Henriot, Co.</td><td>Mary Saveley</td><td>78.32.5555</td><td>Lyon</td><td>France</td><td>1337</td></tr>
+            <tr><td>148</td><td>Dragon Souveniers, Ltd.</td><td>Eric Natividad</td><td>+65 221 7555</td><td>Singapore</td><td>Singapore</td><td>1621</td></tr>
+            <tr><td>151</td><td>Muscle Machine Inc</td><td>Jeff Young</td><td>2125557413</td><td>NYC</td><td>USA</td><td>1286</td></tr>
+            <tr><td>157</td><td>Diecast Classics Inc.</td><td>Kelvin Leong</td><td>2155551555</td><td>Allentown</td><td>USA</td><td>1216</td></tr>
+            <tr><td>161</td><td>Technics Stores Inc.</td><td>Juri Hashimoto</td><td>6505556809</td><td>Burlingame</td><td>USA</td><td>1165</td></tr>
+            <tr><td>166</td><td>Handji Giftsand Co</td><td>Wendy Victorino</td><td>+65 224 1555</td><td>Singapore</td><td>Singapore</td><td>1612</td></tr>
+            <tr><td>167</td><td>Herkku Gifts</td><td>Veysel Oeztan</td><td>+47 2267 3215</td><td>Bergen</td><td>Norway  </td><td>1504</td></tr>
+            <tr><td>168</td><td>American Souvenirs Inc</td><td>Keith Franco</td><td>2035557845</td><td>New Haven</td><td>USA</td><td>1286</td></tr>
+            <tr><td>169</td><td>Porto Imports Co.</td><td>Isabel de Castro</td><td>(1) 356-5555</td><td>Lisboa</td><td>Portugal</td><td>NULL</td></tr>
+            <tr><td>171</td><td>Daedalus Designs Imports</td><td>Martine Rancé</td><td>20.16.1555</td><td>Lille</td><td>France</td><td>1370</td></tr>
+            <tr><td>172</td><td>La Corne D'abondance, Co.</td><td>Marie Bertrand</td><td>(1) 42.34.2555</td><td>Paris</td><td>France</td><td>1337</td></tr>
+            <tr><td>173</td><td>Cambridge Collectables Co.</td><td>Jerry Tseng</td><td>6175555555</td><td>Cambridge</td><td>USA</td><td>1188</td></tr>
+            <tr><td>175</td><td>Gift Depot Inc.</td><td>Julie King</td><td>2035552570</td><td>Bridgewater</td><td>USA</td><td>1323</td></tr>
+            <tr><td>177</td><td>Osaka Souveniers Co.</td><td>Mory Kentary</td><td>+81 06 6342 5555</td><td>Kita-ku</td><td>Japan</td><td>1621</td></tr>
+            <tr><td>181</td><td>Vitachrome Inc.</td><td>Michael Frick</td><td>2125551500</td><td>NYC</td><td>USA</td><td>1286</td></tr>
+            <tr><td>186</td><td>Toys of Finland, Co.</td><td>Matti Karttunen</td><td>90-224 8555</td><td>Helsinki</td><td>Finland</td><td>1501</td></tr>
+            <tr><td>187</td><td>AV Stores, Co.</td><td>Rachel Ashworth</td><td>(171) 555-1555</td><td>Manchester</td><td>UK</td><td>1501</td></tr>
+            <tr><td>189</td><td>Clover Collections, Co.</td><td>Dean Cassidy</td><td>+353 1862 1555</td><td>Dublin</td><td>Ireland</td><td>1504</td></tr>
+            <tr><td>198</td><td>Auto-Moto Classics Inc.</td><td>Leslie Taylor</td><td>6175558428</td><td>Brickhaven</td><td>USA</td><td>1216</td></tr>
+            <tr><td>201</td><td>UK Collectables, Ltd.</td><td>Elizabeth Devon</td><td>(171) 555-2282</td><td>Liverpool</td><td>UK</td><td>1501</td></tr>
+            <tr><td>202</td><td>Canadian Gift Exchange Network</td><td>Yoshi Tamuri</td><td>(604) 555-3392</td><td>Vancouver</td><td>Canada</td><td>1323</td></tr>
+            <tr><td>204</td><td>Online Mini Collectables</td><td>Miguel Barajas</td><td>6175557555</td><td>Brickhaven</td><td>USA</td><td>1188</td></tr>
+            <tr><td>205</td><td>Toys4GrownUps.com</td><td>Julie Young</td><td>6265557265</td><td>Pasadena</td><td>USA</td><td>1166</td></tr>
+            <tr><td>206</td><td>Asian Shopping Network, Co</td><td>Brydey Walker</td><td>+612 9411 1555</td><td>Singapore</td><td>Singapore</td><td>NULL</td></tr>
+            <tr><td>209</td><td>Mini Caravy</td><td>Frédérique Citeaux</td><td>88.60.1555</td><td>Strasbourg</td><td>France</td><td>1370</td></tr>
+            <tr><td>211</td><td>King Kong Collectables, Co.</td><td>Mike Gao</td><td>+852 2251 1555</td><td>Central Hong Kong</td><td>Hong Kong</td><td>1621</td></tr>
+            <tr><td>216</td><td>Enaco Distributors</td><td>Eduardo Saavedra</td><td>(93) 203 4555</td><td>Barcelona</td><td>Spain</td><td>1702</td></tr>
+            <tr><td>219</td><td>Boards and Toys Co.</td><td>Mary Young</td><td>3105552373</td><td>Glendale</td><td>USA</td><td>1166</td></tr>
+            <tr><td>223</td><td>Natürlich Autos</td><td>Horst Kloss</td><td>0372-555188</td><td>Cunewalde</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>227</td><td>Heintze Collectables</td><td>Palle Ibsen</td><td>86 21 3555</td><td>Århus</td><td>Denmark</td><td>1401</td></tr>
+            <tr><td>233</td><td>Québec Home Shopping Network</td><td>Jean Fresnière</td><td>(514) 555-8054</td><td>Montréal</td><td>Canada</td><td>1286</td></tr>
+            <tr><td>237</td><td>ANG Resellers</td><td>Alejandra Camino</td><td>(91) 745 6555</td><td>Madrid</td><td>Spain</td><td>NULL</td></tr>
+            <tr><td>239</td><td>Collectable Mini Designs Co.</td><td>Valarie Thompson</td><td>7605558146</td><td>San Diego</td><td>USA</td><td>1166</td></tr>
+            <tr><td>240</td><td>giftsbymail.co.uk</td><td>Helen Bennett</td><td>(198) 555-8888</td><td>Cowes</td><td>UK</td><td>1501</td></tr>
+            <tr><td>242</td><td>Alpha Cognac</td><td>Annette Roulet</td><td>61.77.6555</td><td>Toulouse</td><td>France</td><td>1370</td></tr>
+            <tr><td>247</td><td>Messner Shopping Network</td><td>Renate Messner</td><td>069-0555984</td><td>Frankfurt</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>249</td><td>Amica Models and Co.</td><td>Paolo Accorti</td><td>011-4988555</td><td>Torino</td><td>Italy</td><td>1401</td></tr>
+            <tr><td>250</td><td>Lyon Souveniers</td><td>Daniel Da Silva</td><td>+33 1 46 62 7555</td><td>Paris</td><td>France</td><td>1337</td></tr>
+            <tr><td>256</td><td>Auto Associés and Cie.</td><td>Daniel Tonini</td><td>30.59.8555</td><td>Versailles</td><td>France</td><td>1370</td></tr>
+            <tr><td>259</td><td>Toms Spezialitäten, Ltd</td><td>Henriette Pfalzheim</td><td>0221-5554327</td><td>Köln</td><td>Germany</td><td>1504</td></tr>
+            <tr><td>260</td><td>Royal Canadian Collectables, Ltd.</td><td>Elizabeth Lincoln</td><td>(604) 555-4555</td><td>Tsawassen</td><td>Canada</td><td>1323</td></tr>
+            <tr><td>273</td><td>Franken Gifts, Co</td><td>Peter Franken</td><td>089-0877555</td><td>München</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>276</td><td>Anna's Decorations, Ltd</td><td>Anna O'Hara</td><td>02 9936 8555</td><td>North Sydney</td><td>Australia</td><td>1611</td></tr>
+            <tr><td>278</td><td>Rovelli Gifts</td><td>Giovanni Rovelli</td><td>035-640555</td><td>Bergamo</td><td>Italy</td><td>1401</td></tr>
+            <tr><td>282</td><td>Souveniers And Things Co.</td><td>Adrian Huxley</td><td>+61 2 9495 8555</td><td>Chatswood</td><td>Australia</td><td>1611</td></tr>
+            <tr><td>286</td><td>Marta's Replicas Co.</td><td>Marta Hernandez</td><td>6175558555</td><td>Cambridge</td><td>USA</td><td>1216</td></tr>
+            <tr><td>293</td><td>BGandE Collectables</td><td>Ed Harrison</td><td>+41 26 425 50 01</td><td>Fribourg</td><td>Switzerland</td><td>NULL</td></tr>
+            <tr><td>298</td><td>Vida Sport, Ltd</td><td>Mihael Holz</td><td>0897-034555</td><td>Genève</td><td>Switzerland</td><td>1702</td></tr>
+            <tr><td>299</td><td>Norway Gifts By Mail, Co.</td><td>Jan Klaeboe</td><td>+47 2212 1555</td><td>Oslo</td><td>Norway  </td><td>1504</td></tr>
+            <tr><td>303</td><td>Schuyler Imports</td><td>Bradley Schuyler</td><td>+31 20 491 9555</td><td>Amsterdam</td><td>Netherlands</td><td>NULL</td></tr>
+            <tr><td>307</td><td>Der Hund Imports</td><td>Mel Andersen</td><td>030-0074555</td><td>Berlin</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>311</td><td>Oulu Toy Supplies, Inc.</td><td>Pirkko Koskitalo</td><td>981-443655</td><td>Oulu</td><td>Finland</td><td>1501</td></tr>
+            <tr><td>314</td><td>Petit Auto</td><td>Catherine Dewey</td><td>(02) 5554 67</td><td>Bruxelles</td><td>Belgium</td><td>1401</td></tr>
+            <tr><td>319</td><td>Mini Classics</td><td>Steve Frick</td><td>9145554562</td><td>White Plains</td><td>USA</td><td>1323</td></tr>
+            <tr><td>320</td><td>Mini Creations Ltd.</td><td>Wing Huang</td><td>5085559555</td><td>New Bedford</td><td>USA</td><td>1188</td></tr>
+            <tr><td>321</td><td>Corporate Gift Ideas Co.</td><td>Julie Brown</td><td>6505551386</td><td>San Francisco</td><td>USA</td><td>1165</td></tr>
+            <tr><td>323</td><td>Down Under Souveniers, Inc</td><td>Mike Graham</td><td>+64 9 312 5555</td><td>Auckland  </td><td>New Zealand</td><td>1612</td></tr>
+            <tr><td>324</td><td>Stylish Desk Decors, Co.</td><td>Ann Brown</td><td>(171) 555-0297</td><td>London</td><td>UK</td><td>1501</td></tr>
+            <tr><td>328</td><td>Tekni Collectables Inc.</td><td>William Brown</td><td>2015559350</td><td>Newark</td><td>USA</td><td>1323</td></tr>
+            <tr><td>333</td><td>Australian Gift Network, Co</td><td>Ben Calaghan</td><td>61-7-3844-6555</td><td>South Brisbane</td><td>Australia</td><td>1611</td></tr>
+            <tr><td>334</td><td>Suominen Souveniers</td><td>Kalle Suominen</td><td>+358 9 8045 555</td><td>Espoo</td><td>Finland</td><td>1501</td></tr>
+            <tr><td>335</td><td>Cramer Spezialitäten, Ltd</td><td>Philip Cramer</td><td>0555-09555</td><td>Brandenburg</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>339</td><td>Classic Gift Ideas, Inc</td><td>Francisca Cervantes</td><td>2155554695</td><td>Philadelphia</td><td>USA</td><td>1188</td></tr>
+            <tr><td>344</td><td>CAF Imports</td><td>Jesus Fernandez</td><td>+34 913 728 555</td><td>Madrid</td><td>Spain</td><td>1702</td></tr>
+            <tr><td>347</td><td>Men 'R' US Retailers, Ltd.</td><td>Brian Chandler</td><td>2155554369</td><td>Los Angeles</td><td>USA</td><td>1166</td></tr>
+            <tr><td>348</td><td>Asian Treasures, Inc.</td><td>Patricia McKenna</td><td>2967 555</td><td>Cork</td><td>Ireland</td><td>NULL</td></tr>
+            <tr><td>350</td><td>Marseille Mini Autos</td><td>Laurence Lebihan</td><td>91.24.4555</td><td>Marseille</td><td>France</td><td>1337</td></tr>
+            <tr><td>353</td><td>Reims Collectables</td><td>Paul Henriot</td><td>26.47.1555</td><td>Reims</td><td>France</td><td>1337</td></tr>
+            <tr><td>356</td><td>SAR Distributors, Co</td><td>Armand Kuger</td><td>+27 21 550 3555</td><td>Hatfield</td><td>South Africa</td><td>NULL</td></tr>
+            <tr><td>357</td><td>GiftsForHim.com</td><td>Wales MacKinlay</td><td>64-9-3763555</td><td>Auckland</td><td>New Zealand</td><td>1612</td></tr>
+            <tr><td>361</td><td>Kommission Auto</td><td>Karin Josephs</td><td>0251-555259</td><td>Münster</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>362</td><td>Gifts4AllAges.com</td><td>Juri Yoshido</td><td>6175559555</td><td>Boston</td><td>USA</td><td>1216</td></tr>
+            <tr><td>363</td><td>Online Diecast Creations Co.</td><td>Dorothy Young</td><td>6035558647</td><td>Nashua</td><td>USA</td><td>1216</td></tr>
+            <tr><td>369</td><td>Lisboa Souveniers, Inc</td><td>Lino Rodriguez</td><td>(1) 354-2555</td><td>Lisboa</td><td>Portugal</td><td>NULL</td></tr>
+            <tr><td>376</td><td>Precious Collectables</td><td>Braun Urs</td><td>0452-076555</td><td>Bern</td><td>Switzerland</td><td>1702</td></tr>
+            <tr><td>379</td><td>Collectables For Less Inc.</td><td>Allen Nelson</td><td>6175558555</td><td>Brickhaven</td><td>USA</td><td>1188</td></tr>
+            <tr><td>381</td><td>Royale Belge</td><td>Pascale Cartrain</td><td>(071) 23 67 2555</td><td>Charleroi</td><td>Belgium</td><td>1401</td></tr>
+            <tr><td>382</td><td>Salzburg Collectables</td><td>Georg Pipps</td><td>6562-9555</td><td>Salzburg</td><td>Austria</td><td>1401</td></tr>
+            <tr><td>385</td><td>Cruz and Sons Co.</td><td>Arnold Cruz</td><td>+63 2 555 3587</td><td>Makati City</td><td>Philippines</td><td>1621</td></tr>
+            <tr><td>386</td><td>L'ordine Souveniers</td><td>Maurizio Moroni</td><td>0522-556555</td><td>Reggio Emilia</td><td>Italy</td><td>1401</td></tr>
+            <tr><td>398</td><td>Tokyo Collectables, Ltd</td><td>Akiko Shimamura</td><td>+81 3 3584 0555</td><td>Minato-ku</td><td>Japan</td><td>1621</td></tr>
+            <tr><td>406</td><td>Auto Canal+ Petit</td><td>Dominique Perrier</td><td>(1) 47.55.6555</td><td>Paris</td><td>France</td><td>1337</td></tr>
+            <tr><td>409</td><td>Stuttgart Collectable Exchange</td><td>Rita Müller</td><td>0711-555361</td><td>Stuttgart</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>412</td><td>Extreme Desk Decorations, Ltd</td><td>Sarah McRoy</td><td>04 499 9555</td><td>Wellington</td><td>New Zealand</td><td>1612</td></tr>
+            <tr><td>415</td><td>Bavarian Collectables Imports, Co.</td><td>Michael Donnermeyer</td><td> +49 89 61 08 9555</td><td>Munich</td><td>Germany</td><td>1504</td></tr>
+            <tr><td>424</td><td>Classic Legends Inc.</td><td>Maria Hernandez</td><td>2125558493</td><td>NYC</td><td>USA</td><td>1286</td></tr>
+            <tr><td>443</td><td>Feuer Online Stores, Inc</td><td>Alexander Feuer</td><td>0342-555176</td><td>Leipzig</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>447</td><td>Gift Ideas Corp.</td><td>Dan Lewis</td><td>2035554407</td><td>Glendale</td><td>USA</td><td>1323</td></tr>
+            <tr><td>448</td><td>Scandinavian Gift Ideas</td><td>Martha Larsson</td><td>0695-34 6555</td><td>Bräcke</td><td>Sweden</td><td>1504</td></tr>
+            <tr><td>450</td><td>The Sharp Gifts Warehouse</td><td>Sue Frick</td><td>4085553659</td><td>San Jose</td><td>USA</td><td>1165</td></tr>
+            <tr><td>452</td><td>Mini Auto Werke</td><td>Roland Mendel</td><td>7675-3555</td><td>Graz</td><td>Austria</td><td>1401</td></tr>
+            <tr><td>455</td><td>Super Scale Inc.</td><td>Leslie Murphy</td><td>2035559545</td><td>New Haven</td><td>USA</td><td>1286</td></tr>
+            <tr><td>456</td><td>Microscale Inc.</td><td>Yu Choi</td><td>2125551957</td><td>NYC</td><td>USA</td><td>1286</td></tr>
+            <tr><td>458</td><td>Corrida Auto Replicas, Ltd</td><td>Martín Sommer</td><td>(91) 555 22 82</td><td>Madrid</td><td>Spain</td><td>1702</td></tr>
+            <tr><td>459</td><td>Warburg Exchange</td><td>Sven Ottlieb</td><td>0241-039123</td><td>Aachen</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>462</td><td>FunGiftIdeas.com</td><td>Violeta Benitez</td><td>5085552555</td><td>New Bedford</td><td>USA</td><td>1216</td></tr>
+            <tr><td>465</td><td>Anton Designs, Ltd.</td><td>Carmen Anton</td><td>+34 913 728555</td><td>Madrid</td><td>Spain</td><td>NULL</td></tr>
+            <tr><td>471</td><td>Australian Collectables, Ltd</td><td>Sean Clenahan</td><td>61-9-3844-6555</td><td>Glen Waverly</td><td>Australia</td><td>1611</td></tr>
+            <tr><td>473</td><td>Frau da Collezione</td><td>Franco Ricotti</td><td>+39 022515555</td><td>Milan</td><td>Italy</td><td>1401</td></tr>
+            <tr><td>475</td><td>West Coast Collectables Co.</td><td>Steve Thompson</td><td>3105553722</td><td>Burbank</td><td>USA</td><td>1166</td></tr>
+            <tr><td>477</td><td>Mit Vergnügen and Co.</td><td>Hanna Moos</td><td>0621-08555</td><td>Mannheim</td><td>Germany</td><td>NULL</td></tr>
+            <tr><td>480</td><td>Kremlin Collectables, Co.</td><td>Alexander Semenov</td><td>+7 812 293 0521</td><td>Saint Petersburg</td><td>Russia</td><td>NULL</td></tr>
+            <tr><td>481</td><td>Raanan Stores, Inc</td><td>Raanan Altagar,G M</td><td>+ 972 9 959 8555</td><td>Herzlia</td><td>Israel</td><td>NULL</td></tr>
+            <tr><td>484</td><td>Iberia Gift Imports, Corp.</td><td>José Pedro Roel</td><td>(95) 555 82 82</td><td>Sevilla</td><td>Spain</td><td>1702</td></tr>
+            <tr><td>486</td><td>Motor Mint Distributors Inc.</td><td>Rosa Salazar</td><td>2155559857</td><td>Philadelphia</td><td>USA</td><td>1323</td></tr>
+            <tr><td>487</td><td>Signal Collectibles Ltd.</td><td>Sue Taylor</td><td>4155554312</td><td>Brisbane</td><td>USA</td><td>1165</td></tr>
+            <tr><td>489</td><td>Double Decker Gift Stores, Ltd</td><td>Thomas Smith</td><td>(171) 555-7555</td><td>London</td><td>UK</td><td>1501</td></tr>
+            <tr><td>495</td><td>Diecast Collectables</td><td>Valarie Franco</td><td>6175552555</td><td>Boston</td><td>USA</td><td>1188</td></tr>
+            <tr><td>496</td><td>Kelly's Gift Shop</td><td>Tony Snowden</td><td>+64 9 5555500</td><td>Auckland  </td><td>New Zealand</td><td>1612</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
