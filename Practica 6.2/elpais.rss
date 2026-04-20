@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>EL PAÍS - Portada</title>
+        <link>https://elpais.com</link>
+        <description>Noticias de última hora sobre la actualidad en España y el mundo.</description>
+        <language>es-ES</language>
+        <pubDate>Mon, 20 Apr 2026 13:00:00 +0200</pubDate>
+        <item>
+            <title>El Banco Central Europeo debate una nueva bajada de los tipos de interés</title>
+            <link>https://elpais.com/economia/2026-04-20/bce-tipos-de-interes.html</link>
+            <description>La presidenta del BCE señala que la inflación está bajo control y abre la puerta a nuevas medidas de estímulo económico en Europa.</description>
+            <pubDate>Mon, 20 Apr 2026 11:45:00 +0200</pubDate>
+            <guid>https://elpais.com/economia/2026-04-20/bce-tipos-de-interes.html</guid>
+        </item>
+        <item>
+            <title>Avances significativos en la cumbre sobre el clima de Naciones Unidas</title>
+            <link>https://elpais.com/clima-y-medio-ambiente/2026-04-20/cumbre-clima-avances.html</link>
+            <description>Los países miembros acuerdan nuevos objetivos para reducir las emisiones globales antes de 2030, con un fondo especial para países en desarrollo.</description>
+            <pubDate>Mon, 20 Apr 2026 09:20:00 +0200</pubDate>
+            <guid>https://elpais.com/clima-y-medio-ambiente/2026-04-20/cumbre-clima-avances.html</guid>
+        </item>
+    </channel>
+</rss>
