@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Diario de Mallorca - Noticias de Mallorca</title>
+        <link>https://www.diariodemallorca.es/mallorca/</link>
+        <description>Últimas noticias de Mallorca. Información local, sucesos y política.</description>
+        <language>es-ES</language>
+        <pubDate>Mon, 20 Apr 2026 12:00:00 +0200</pubDate>
+        <item>
+            <title>Nuevas medidas para mejorar el tráfico en los accesos a Palma</title>
+            <link>https://www.diariodemallorca.es/mallorca/2026/04/20/trafico-accesos-palma/</link>
+            <description>El Consell de Mallorca anuncia un plan de choque para reducir los atascos en la Vía de Cintura durante las horas punta.</description>
+            <pubDate>Mon, 20 Apr 2026 10:30:00 +0200</pubDate>
+            <guid>https://www.diariodemallorca.es/mallorca/2026/04/20/trafico-accesos-palma/</guid>
+        </item>
+        <item>
+            <title>Previsión de ocupación hotelera récord para este verano en las Islas Baleares</title>
+            <link>https://www.diariodemallorca.es/mallorca/2026/04/20/ocupacion-hotelera-record/</link>
+            <description>El sector turístico balear prevé superar las cifras de visitantes del año pasado gracias al repunte del turismo internacional.</description>
+            <pubDate>Mon, 20 Apr 2026 08:15:00 +0200</pubDate>
+            <guid>https://www.diariodemallorca.es/mallorca/2026/04/20/ocupacion-hotelera-record/</guid>
+        </item>
+    </channel>
+</rss>
