@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+   <channel>
+      <title>Ajuntament de palma</title>
+      <link>https://www.palma.cat/portal/PALMA/home.jsp?codResi=1</link>
+      <description>página web ajuntament</description>
+      <language>ca-ES</language>
+      <item>
+         <title>Participació Ciutadana</title>
+         <link>https://participacio.palma.cat/portal/PALMA/participacio/participacio_principal1.jsp?codResi=1</link>
+         <guid>https://participacio.palma.cat/portal/PALMA/participacio/participacio_principal1.jsp?codResi=1</guid>
+      </item>
+   </channel>
+</rss>
