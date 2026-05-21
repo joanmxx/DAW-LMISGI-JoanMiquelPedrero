@@ -1,0 +1,2 @@
+SELECT ExtractValue(document, '//employee[@emp_id="7"]/start_date') AS result
+FROM taula_xml;

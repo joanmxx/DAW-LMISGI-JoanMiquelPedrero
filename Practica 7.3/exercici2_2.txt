@@ -1,0 +1,2 @@
+SELECT ExtractValue(document, 'count(//employee[department/department_name="Operations"])') AS result
+FROM taula_xml;

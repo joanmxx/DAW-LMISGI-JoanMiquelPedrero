@@ -1,0 +1,2 @@
+SELECT ExtractValue(document, '//employee[assigned_branch/assigned_branch_name="Headquarters"]/first_name') AS result
+FROM taula_xml;
