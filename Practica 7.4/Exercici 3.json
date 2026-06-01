@@ -1,0 +1,4 @@
+SELECT 
+JSON_UNQUOTE(JSON_EXTRACT(json_data, '$.txn_id')) AS txn_id,
+JSON_UNQUOTE(JSON_EXTRACT(json_data, '$.txn_date')) AS txn_date
+FROM transactions;

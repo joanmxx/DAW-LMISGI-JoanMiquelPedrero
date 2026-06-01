@@ -1,0 +1,1 @@
+SELECT JSON_UNQUOTE(JSON_EXTRACT(json_data, '$.amount')) AS amount FROM transactions; 

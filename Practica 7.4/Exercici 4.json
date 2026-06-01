@@ -1,0 +1,6 @@
+SELECT 
+JSON_UNQUOTE(JSON_EXTRACT(a.json_data, '$.account_id')) AS account_id,
+JSON_EXTRACT(t.json_data, '$.amount') AS amount
+FROM transactions t
+JOIN accounts a 
+ON JSON_UNQUOTE(JSON_EXTRACT(t.json_data, '$.account_id')) = JSON_UNQUOTE(JSON_EXTRACT(a.json_data, '$.account_id'));
